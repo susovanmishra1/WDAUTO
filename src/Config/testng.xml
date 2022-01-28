@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PLM-Test-Suite" >
+    <test name="Create PLM">
+        <classes>
+            <class name="Tests.CreatePLM" />
+        </classes>
+    </test>
+    <test name="Create PLM Verification" >
+        <classes>
+            <class name="Tests.CreatePLMVerification" />
+        </classes>
+    </test>
+    <test name="Create Project" >
+        <classes>
+            <class name="Tests.CreateProject" />
+        </classes>
+    </test>
+    <test name="Create Project Verification" >
+        <classes>
+            <class name="Tests.CreateProjectVerification" />
+        </classes>
+    </test>
+    <test name="Verify Project Help" >
+        <classes>
+            <class name="Tests.VerifyProjectHelp" />
+        </classes>
+    </test>
+    <test name="Verify PLM Help" >
+        <classes>
+            <class name="Tests.VerifyPLMHelp" />
+        </classes>
+    </test>
+    <test name="Verify Allocation" >
+        <classes>
+            <class name="Tests.VerifyResourceAllocation" />
+        </classes>
+    </test>
+    <test name="Verify Action Button" >
+        <classes>
+            <class name="Tests.VerifyActionButtons" />
+        </classes>
+    </test>
+</suite>
